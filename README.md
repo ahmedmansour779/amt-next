@@ -9,6 +9,10 @@ Hello my friends, my name is Ahmed Mansour. This repository helps you organize t
 -   App route
 -   Translation with next-intl
 
+## Important notes
+
+-   On line 33 of the .gitignore file, delete #
+
 ## Contact
 
 -   [linked in](https://www.linkedin.com/in/ahmed-mansour-hamed/)
