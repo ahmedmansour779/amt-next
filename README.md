@@ -12,6 +12,8 @@ Hello my friends, my name is Ahmed Mansour. This repository helps you organize t
 ## Important notes
 
 -   On line 33 of the .gitignore file, delete #
+-   change name folder
+-   change name project in package.json
 
 ## Contact
 
