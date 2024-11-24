@@ -1,5 +1,7 @@
-import ChangeLang from "@/src/components/ChangeLang";
+
 import { useTranslations } from "next-intl";
+import ChangeLang from "../components/ChangeLang";
+import ChangeTheme from "../components/ChangeTheme";
 
 export default function Home() {
     const t = useTranslations('homePage');
@@ -10,7 +12,10 @@ export default function Home() {
     return (
         <div>
             <ChangeLang />
-            {t("title")}
+            <ChangeTheme />
+            <p className="bg-white text-black dark:bg-black dark:text-white">
+                {t("title")}
+            </p>
         </div>
     )
 }
